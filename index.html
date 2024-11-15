@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoinFlip</title>
+</head>
+<body>
+<div class="container">
+<h1>Coin Flip</h1>
+<div class="coin" id="coinId"></div>
+<br>
+<button onclick="coinflip()" id="flipId">Flip</button>
+<br>
+<div class="bets" id="bets">
+    <p>BET, only do heads or tails</p>
+<input type="text" id="betId"><br>
+    <p>bet amount</p>
+<input type="number" id="betAmtId"><br>
+</div>
+<div id="moneyDiv">
+    <span id="moneyId">0</span>:Money<br>
+</div>
+<br>
+<button onclick="reset()" id="resetId">reset</button>
+<button onclick="saveGame()" id = "save">save game</button><br>
+<p>website views</p>
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=17378001&style=0009&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>       
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

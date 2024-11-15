@@ -1,0 +1,105 @@
+.coin {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: gold;
+    border: 5px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 50px;
+    align-content: center;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(104, 0, 104);
+    width: 500px;
+    height: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(33, 45, 90);
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    background-color: rgb(23, 29, 50);
+}
+
+.bets {
+    background-color: rgb(104, 0, 104);
+}
+
+p {
+    background-color: rgb(104, 0, 104);
+}
+
+input {
+    background-color: rgb(33, 45, 90);
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    width: 150px;
+    height: 25px;
+    padding: 5px black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+button {
+     background-color: rgb(29, 50, 130);
+     text-align: center;
+    margin: 0 auto;
+        width: 50%;
+        width: 150px;
+        height: 30px;
+        padding: 15px black;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: small;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+}
+
+#moneyId {
+    background-color: rgb(104, 0, 104);
+}
+
+#moneyDiv {
+    background-color: rgb(104, 0, 104);
+}
+
+#flipId {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    width: 300px;
+    height: 45px;
+    padding: 15px black;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
